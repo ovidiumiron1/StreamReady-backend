@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using StreamReady_backend.Database;
 
 namespace StreamReady_backend
 {
@@ -31,6 +33,13 @@ namespace StreamReady_backend
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "StreamReady_backend", Version = "v1"});
             });
+
+            var connectionString = Configuration.GetConnectionString("Default");
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 22)); 
+            services.AddDbContext<AppDbContext>(
+                dbContextOptions => dbContextOptions
+                    .UseMySql(connectionString, serverVersion)
+                    );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
