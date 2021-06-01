@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Declp3AIWesyVBxZXHo6DkbgMwWHB5ysOinFzkH3w2TpwW9XrPouQfhsVhHNb0e+xHqQWjfmTpwD3Fvj3vZbTw==",
+  "dgSpecHash": "ahiF9QDvBFfS1EuWiza77rYaXfpXkY4B9BU8SP3396qXEjxJDU/89HIMA+sEH0Udpb8tRTwJ01ma2RPbEsWHag==",
   "success": true,
   "projectFilePath": "E:\\Angular\\Backend\\StreamReady-backend\\StreamReady-backend\\StreamReady-backend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ovidi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.4.21253.1\\microsoft.entityframeworkcore.6.0.0-preview.4.21253.1.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.4.21253.1\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.4.21253.1.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.4.21253.1\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.4.21253.1.nupkg.sha512",
+    "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0-preview.4.21253.1\\microsoft.entityframeworkcore.design.6.0.0-preview.4.21253.1.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0-preview.4.21253.1\\microsoft.entityframeworkcore.relational.6.0.0-preview.4.21253.1.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ovidi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0-preview.4.21253.7\\microsoft.extensions.caching.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",

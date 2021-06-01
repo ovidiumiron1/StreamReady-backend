@@ -45,3 +45,5 @@ E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\Syst
 E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\System.ComponentModel.Annotations.dll
 E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\Humanizer.dll
+E:\Angular\Backend\StreamReady-backend\StreamReady-backend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

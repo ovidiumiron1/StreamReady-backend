@@ -66,6 +66,8 @@ namespace StreamReady_backend.Controllers
             }
 
             _dbContext.Songs.Add(song);
+            _dbContext.SaveChanges();
+            
             return Get();
         }
     }
